@@ -56,11 +56,17 @@ public abstract class Monster {
 
     @Override
     public String toString() {
-        return "Monster{" +
-                "hp=" + hp +
-                ", xp=" + xp +
-                ", maxHp=" + maxHp +
-                ", items=" + items +
-                '}';
+        return "hp=" + hp + "/" + maxHp;
     }
+
+//    @Override
+//    public String toString() {
+//        return "Monster{" +
+//                "hp=" + hp +
+//                ", xp=" + xp +
+//                ", maxHp=" + maxHp +
+//                ", items=" + items +
+//                '}';
+//    }
+
 }
